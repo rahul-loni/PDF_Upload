@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:layout_width="180dp"
+       android:layout_height="180dp"
+       android:layout_gravity="center"
+       android:src="@drawable/a"
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Firebase Storage"
+       android:textSize="22sp"
+       android:fontFamily="sans-serif-light"
+       android:gravity="center"
+       android:textColor="#25698F"
+       android:layout_marginTop="50dp"/>
+   <EditText
+       android:id="@+id/txt_PDFNmae"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Upload PDF File"
+       android:layout_marginTop="50dp"
+       />
+   <Button
+       android:id="@+id/btn_upload"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Upload"
+       android:textSize="22sp"
+       android:layout_marginTop="22sp"
+       />
+   <Button
+       android:id="@+id/btn_view"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="View PDF File"
+       android:textSize="22sp"
+       android:onClick="Click"
+       android:layout_marginTop="22sp"
+       />
+
+</LinearLayout>
